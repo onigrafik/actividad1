@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones Animate.style</title>
+    <link rel="stylesheet" href="css/stylewow.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--libreria local de animate style-->
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+
+
+    <div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">index</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="wow.html">second</a>
+                  <a class="nav-link" href="turn.js.html">three</a>
+                 
+                 
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+
+    <h1 class="text-center animate__animated animate__bounce">Soy Wow.Js</h1>
+
+    <div class="container">
+        <div class="row1 caja">
+            <div class="col-6">
+                <h1>Animate css</h1>
+                <p>Animate.css es una biblioteca de animaciones entre navegadores listas para usar para usar en sus proyectos web. Ideal para énfasis, páginas de inicio, controles deslizantes y sugerencias de guía de atención..
+                </p>
+            </div>
+            <div class="col-6 ">
+                <h1>Wow.js</h1>
+                <p>Revela animaciones cuando te desplazas. Muy amigo de Animate.css :-)
+                    Personalice fácilmente la configuración de la animación: estilo, demora, duración, desplazamiento, iteraciones...
+                    100% con licencia MIT, no GPL. Mantén tu código tuyo.
+                    ES2015+, naturalmente libre de cafeína.</p>
+            </div>
+        </div>
+    </div>        
+    
+<!--caja1-->
+    <div class="container">
+        <div class="row">
+            <div class="col-6 caja">
+                <img src="img/Sonic.png" width="155rem" class="wow animate__animated animate__swing animate__slideInLeft animate__infinite">
+            </div>
+            <div class="col-6 caja">
+                <img src="img/rojo.png" width="155rem" class="wow animate__animated animate__swing animate__slideInRight animate__infinite">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 caja">
+                <img src="img/yellow.webp" width="155rem" class="wow animate__animated animate__bounceInUp">
+            </div>
+            <div class="col-6 caja">
+                <img src="img/amarillo.png" width="155rem" class="wow animate__animated animate__bounceInUp">
+            </div>
+        </div>
+<!--caja2-->
+
+        <div class="row">
+            <div class="col-6 caja">
+                <img src="img/Sonic.png" width="155rem" class="wow animate__animated animate__bounceInLeft animate__delay-1s ">
+            </div>
+            <div class="col-6 caja">
+                <img src="img/rojo.png" width="155rem" class="wow animate__animated animate__rubberBand ">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 caja">
+                <img src="img/yellow.webp" width="155rem" class="wow animate__animated animate__shakeX ">
+            </div>
+            <div class="col-6 caja">
+                <img src="img/amarillo.png" width="155rem" class="wow animate__animated animate__bounceOutDown ">
+            </div>
+
+<!--caja3-->
+
+        </div>
+        <div class="row">
+            <div class="col-6 caja">
+                <img src="img/Sonic.png" width="155rem" class="wow animate__animated animate__tada animate__infinite">
+            </div>
+            <div class="col-6 caja">
+                <img src="img/rojo.png" width="155rem" class="wow animate__animated animate__jello animate__infinite">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 caja">
+                <img src="img/yellow.webp" width="155rem" class="wow animate__animated animate__backInRight animate__infinite">
+            </div>
+            <div class="col-6 caja">
+                <img src="img/amarillo.png" width="155rem" class="wow animate__animated animate__flip animate__infinite">
+            </div>
+
+<!--caja4-->
+
+        </div>
+        <div class="row">
+            <div class="col-6 caja">
+                <img src="img/Sonic.png" width="155rem" class="wow animate__animated animate__wobble animate__infinite">
+            </div>
+            <div class="col-6 caja">
+                <img src="img/rojo.png" width="155rem" class="wow animate__animated animate__flash animate__infinite">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 caja">
+                <img src="img/yellow.webp" width="155rem" class="wow animate__animated animate__swing animate__slideInLeft animate__infinite ">
+            </div>
+            <div class="col-6 caja">
+                <img src="img/amarillo.png" width="155rem" class="wow animate__animated animate__swing animate__slideInRight animate__infinite">
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<!--wow.js-->
+
+<script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+</script>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+</html>

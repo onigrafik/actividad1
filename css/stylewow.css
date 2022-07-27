@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    padding: 10px 5px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+h1{
+    color: black;
+    
+}
+.h11{
+    
+    color: purple;
+}
+.row{
+    border: 2px solid lightblue;
+}
+.row1{
+    border: 2px solid purple;
+}
+
+
+.container{
+    margin-top: 20px;
+}
